@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\BrandController;
 use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\CustomerController;
 use App\Http\Controllers\DoctorController;
@@ -23,24 +24,4 @@ Route::resource('suppliers', SupplierController::class);
 Route::resource('customers', CustomerController::class);
 Route::resource('doctors', DoctorController::class);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Route::resource('brands', BrandController::class);
